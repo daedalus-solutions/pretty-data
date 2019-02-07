@@ -1,21 +1,21 @@
 {
-  "name": "@daedalus/pretty-data",
+  "name": "@daedalus/prettify",
   "version": "1.0.0",
-  "author": "Vadim Kiryukhin <vkiryukhin@gmail.com>",
-  "description": "plugin to pretty-print or minify XML, JSON, CSS and SQL files",
+  "author": "Daedalus Solutions",
+  "description": "plugin to prettify or minify XML, JSON, CSS and SQL files",
   "contributors": [
     {
-      "name": "Vadim Kiryukhin",
-      "email": "vkiryukhin@gmail.com"
+      "name": "Jono Temlett",
+      "email": "jtemlett@dearx.co.za"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/vkiryukhin/pretty-data.git"
+    "url": "http://github.com/daedalus-solutions/prettify.git"
   },
-  "main": "./pretty-data",
+  "main": "./prettify",
   "keywords": [
-    "pretty print",
+    "prettify",
     "beautify",
     "minify",
     "XML",

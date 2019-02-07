@@ -1,39 +1,26 @@
-# pretty-data - Nodejs plugin
+# prettify - Nodejs plugin
 
 This is a nodejs plugin to **pretty-print** or **minify** text in **XML**, **JSON**, **CSS** and **SQL** formats.
 
 **Version** - 1.0.0
 
-## This project has been adapted for personal use and is a direct fork from the original author. Please use the orignal authors project, as this project is not maintained for public use.
-
-**Copyright** (c) 2012 Vadim Kiryukhin ( vkiryukhin @ gmail.com )
-
-**Home page:** [http://www.eslinstructor.net/pretty-data/](http://www.eslinstructor.net/pretty-data/)
-
-**License:** Dual licensed under
-the MIT and GPL licenses:
-
-[http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
-
-[http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
-
 ##Description
 
-- `pd.xml(data)` - pretty print XML;
+- `prettify.xml(data)` - pretty print XML;
 
-- `pd.json(data)` - pretty print JSON;
+- `prettify.json(data)` - pretty print JSON;
 
-- `pd.css(data)` - pretty print CSS;
+- `prettify.css(data)` - pretty print CSS;
 
-- `pd.sql(data)` - pretty print SQL;
+- `prettify.sql(data)` - pretty print SQL;
 
-- `pd.xmlmin(data [, preserveComments])` - minify XML;
+- `prettify.xmlmin(data [, preserveComments])` - minify XML;
 
-- `pd.jsonmin(data)` - minify JSON text;
+- `prettify.jsonmin(data)` - minify JSON text;
 
-- `pd.cssmin(data [, preserveComments])` - minify CSS text;
+- `prettify.cssmin(data [, preserveComments])` - minify CSS text;
 
-- `pd.sqlmin(data)` - minify SQL text;
+- `prettify.sqlmin(data)` - minify SQL text;
 
 **PARAMETERS:**
 
@@ -46,20 +33,20 @@ Set this flag to true to prevent removing comments from @data;
 
 **USAGE:**
 
-`var pd = require('pretty-data').pd;`
+`var prettify = require('prettify').prettify;`
 
-`var xml_pp = pd.xml(data);`
+`var xml_pp = prettify.xml(data);`
 
-`var xml_min = pd.xmlmin(data [,true]);`
+`var xml_min = prettify.xmlmin(data [,true]);`
 
-`var json_pp = pd.json(data);`
+`var json_pp = prettify.json(data);`
 
-`var json_min = pd.jsonmin(data);`
+`var json_min = prettify.jsonmin(data);`
 
-`var css_pp = pd.css(data);`
+`var css_pp = prettify.css(data);`
 
-`var css_min = pd.cssmin(data [, true]);`
+`var css_min = prettify.cssmin(data [, true]);`
 
-`var sql_pp = pd.sql(data);`
+`var sql_pp = prettify.sql(data);`
 
-`var sql_min = pd.sqlmin(data);`
+`var sql_min = prettify.sqlmin(data);`
